@@ -1,0 +1,39 @@
+version: '3.8'
+
+services:
+  node1:
+    build: .
+    container_name: mpi-node1
+    hostname: gcc-node1
+    volumes:
+      - .:/app
+    networks:
+      mpinet:
+        aliases:
+          - gcc-node1
+
+  node2:
+    build: .
+    container_name: mpi-node2
+    hostname: gcc-node2
+    volumes:
+      - .:/app
+    networks:
+      mpinet:
+        aliases:
+          - gcc-node2
+
+  node3:
+    build: .
+    container_name: mpi-node3
+    hostname: gcc-node3
+    volumes:
+      - .:/app
+    networks:
+      mpinet:
+        aliases:
+          - gcc-node3
+
+networks:
+  mpinet:
+    driver: bridge
