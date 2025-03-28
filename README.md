@@ -1,9 +1,13 @@
 # Dağıtık Sistem Projesi: OpenMP + MPI + Docker
 
 Bu proje, Docker kullanarak dağıtık bir sistemde OpenMP ve MPI ile paralel veri işleme uygulaması gerçekleştirir.
-
 ---
 
+## Youtube videosu 
+https://youtu.be/tdsOkgQLNzw
+
+----
+# Karşılaştırma pdfi dosya olarak projede bulunuyor 
 ## İçerik
 - [Amaç](#amaç)
 - [Kullanılan Teknolojiler](#kullanılan-teknolojiler)
